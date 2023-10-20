@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[StoreTable]
+(
+[ID] [int] NOT NULL,
+[TimeZone] [nvarchar] (100) COLLATE SQL_Latin1_General_CP1_CI_AS NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[StoreTable] ADD CONSTRAINT [PK__StoreTab__3214EC27110F1668] PRIMARY KEY CLUSTERED ([ID]) ON [PRIMARY]
+GO
