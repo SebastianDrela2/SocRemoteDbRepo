@@ -1,0 +1,8 @@
+CREATE TABLE [dbo].[Authors]
+(
+[AuthorID] [int] NOT NULL,
+[AuthorName] [varchar] (255) COLLATE SQL_Latin1_General_CP1_CI_AS NOT NULL
+) ON [PRIMARY]
+GO
+ALTER TABLE [dbo].[Authors] ADD CONSTRAINT [PK__Authors__70DAFC14914087EA] PRIMARY KEY CLUSTERED ([AuthorID]) ON [PRIMARY]
+GO
